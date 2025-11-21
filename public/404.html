@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="refresh" content="0; url=/React-Contact-Form/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting...</title>
+    <script>
+      // If the site is served from a subpath, redirect back to the repo base
+      (function () {
+        var base = "/React-Contact-Form/";
+        if (
+          location.pathname !== base &&
+          location.pathname.indexOf(base) !== 0
+        ) {
+          location.replace(base + location.pathname.replace(/^\//, ""));
+        } else {
+          location.replace(base);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    Redirecting to the app...
+  </body>
+</html>
